@@ -7,33 +7,36 @@ body {
 
 .container {
     display: grid;
-    place-items: center;
     height: 100vh;
 }
 
-.signup-box {
+.login-box {
     background: #fff;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    text-align: center;
 }
 
 .logo {
     width: 100px;
     height: auto;
     margin: 0 auto 20px;
+
 }
 
-.signup-form input {
+.login-form input {
     width: 100%;
     padding: 10px;
     margin: 10px 0;
     border: 1px solid #ccc;
     border-radius: 5px;
+
+}
+.email-label{
+    text-align: left;
 }
 
-.signup-form button {
+.login-form button {
     width: 20%;
     padding: 10px;
     background-color: #92b192;
@@ -41,8 +44,9 @@ body {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    text-align: center;
 }
 
-.login-link {
+.signup-link {
     margin-top: 20px;
 }

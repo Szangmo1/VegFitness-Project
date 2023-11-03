@@ -1,0 +1,79 @@
+body {
+    font-family:'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Header */
+  header {
+    background-color: #92b192;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+  .navbar {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .nav-link {
+    margin: 0 20px;
+    text-decoration: none;
+    color: #fff;
+  }
+
+  /* Hero Banner */
+  .hero {
+    background-image: url("../Images/hero-image.jpg");
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    padding: 100px 0;
+    height: 100%;
+    width: auto;
+  }
+
+  .cta-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  .container {
+    padding: 50px;
+    text-align: center;
+    cursor: pointer;
+  }
+.dguide:hover{
+  background-color: #92b192;
+}
+.VegMeals:hover{
+  background-color: #92b192;
+}
+.TrainP:hover{
+  background-color: #92b192;
+}
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .social-icons {
+    list-style: none;
+    padding: 0;
+  }
+
+  .social-icons li {
+    display: inline;
+    margin: 0 10px;
+  }
+
+  .social-icons a {
+    text-decoration: none;
+    color: #fff;
+  }

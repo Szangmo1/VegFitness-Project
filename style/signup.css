@@ -1,42 +1,41 @@
 body {
     margin: 0;
     padding: 0;
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-color: #f0f0f0;
 }
 
 .container {
     display: grid;
-    height: 100vh;
+    place-items: center;
 }
 
-.login-box {
+.signup-box {
     background: #fff;
     padding: 20px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
 }
 
 .logo {
     width: 100px;
     height: auto;
     margin: 0 auto 20px;
-
 }
 
-.login-form input {
+.signup-form input {
     width: 100%;
     padding: 10px;
     margin: 10px 0;
     border: 1px solid #ccc;
     border-radius: 5px;
-
 }
-.email-label{
-    text-align: left;
+.signup-form label{
+    width: 40vw;
 }
 
-.login-form button {
+.signup-form button {
     width: 20%;
     padding: 10px;
     background-color: #92b192;
@@ -44,9 +43,8 @@ body {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    text-align: center;
 }
 
-.signup-link {
+.login-link {
     margin-top: 20px;
 }
