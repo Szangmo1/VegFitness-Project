@@ -13,28 +13,28 @@
     />
   </head>
   <body>
-    <div class="container">
+    <div class="container d-flex justify-content-center align-items-center">
       <div class="signup-box">
         <img
           src="../Images/logo.png"
           alt="Logo"
           class="logo logo mx-auto d-block"
         />
-        <form class="signup-form">
-          <div class="signup-form-input w-100 p-100 rounded p-3 mb-3">
-            <label for="username">Username</label>
-            <input type="text" placeholder="Username" />
-            <label for="email">Email</label>
-            <input type="email" placeholder="Email" />
-            <label for="password">Password</label>
-            <input type="password" placeholder="Enter a strong password" />
-            <label for="password">Confirm Password</label>
-            <input type="password" placeholder="please confirm your password" />
+        <form class="signup-form" style="width:30vw">
+          <div class="signup-form-input p-100 rounded p-3 mb-3">
+            <label for="username" class="text-start" style="display: flex; flex: start;">Username</label><br>
+            <input type="text" placeholder="Username" /><br>
+            <label for="email" class="email-label text-left">Email</label><br>
+            <input type="email" placeholder="Email" /><br>
+            <label for="password">Password</label><br>
+            <input type="password" placeholder="Enter a strong password" /><br>
+            <label for="password">Confirm Password</label><br>
+            <input type="password" placeholder="please confirm your password" /><br>
           </div>
           <button class="btn btn-primary mx-auto d-block">Sign Up</button>
         </form>
         <p class="login-link">
-          Already have an account? <a href="/LoginForm">Login</a>
+          Already have an account? <a href="./LoginForm.html">Login</a>
         </p>
       </div>
     </div>
