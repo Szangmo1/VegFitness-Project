@@ -1,16 +1,5 @@
-/**
-* Template Name: OnePage
-* Updated: Sep 18 2023 with Bootstrap v5.3.2
-* Template URL: https://bootstrapmade.com/onepage-multipurpose-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #444444;
 }
 
@@ -25,7 +14,7 @@ body {
   right: 15px;
   bottom: 15px;
   z-index: 996;
-  background: #2487ce;
+  background: #92b192;
   width: 40px;
   height: 40px;
   border-radius: 4px;
@@ -98,11 +87,6 @@ body {
   letter-spacing: 0.5px;
   font-family: "Poppins", sans-serif;
 }
-
-#header .logo a {
-  color: #16507b;
-}
-
 #header .logo img {
   max-height: 40px;
 }
@@ -123,40 +107,9 @@ body {
   list-style: none;
   align-items: center;
 }
-
-.navbar li {
-  position: relative;
-}
-
-.navbar a,
-.navbar a:focus {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 10px 0 10px 30px;
-  font-size: 14px;
-  color: #16507b;
-  white-space: nowrap;
-  transition: 0.3s;
-}
-
-.navbar a i,
-.navbar a:focus i {
-  font-size: 12px;
-  line-height: 0;
-  margin-left: 5px;
-}
-
-.navbar a:hover,
-.navbar .active,
-.navbar .active:focus,
-.navbar li:hover>a {
-  color: #2487ce;
-}
-
 .navbar .logout,
 .navbar .logout:focus {
-  background: #2487ce;
+  background: #92b192;
   padding: 8px 20px;
   margin-left: 30px;
   border-radius: 4px;
@@ -166,7 +119,7 @@ body {
 .navbar .logout:hover,
 .navbar .logout:focus:hover {
   color: #fff;
-  background: #3194db;
+  background: #92b192;
 }
 @media (max-width: 991px) {
   .mobile-nav-toggle {
@@ -208,8 +161,8 @@ body {
   font-size: 56px;
   font-weight: 700;
   line-height: 72px;
-  color: #124265;
-  font-family: "Poppins", sans-serif;
+  color: #135f1b;
+  font-family: "Roboto", sans-serif;
 }
 
 #hero h2 {
@@ -219,7 +172,7 @@ body {
 }
 
 #hero .btn-get-started {
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 14px;
   letter-spacing: 0.5px;
@@ -229,11 +182,11 @@ body {
   transition: 0.5s;
   margin-top: 30px;
   color: #fff;
-  background: #2487ce;
+  background: #92b192;
 }
 
 #hero .btn-get-started:hover {
-  background: #3194db;
+  background: #92b192;
 }
 
 #hero .icon-boxes {
@@ -258,7 +211,7 @@ body {
 }
 
 #hero .icon-box .title a {
-  color: #124265;
+  color: #135f1b;
   transition: 0.3s;
 }
 
@@ -268,22 +221,12 @@ body {
   margin-bottom: 0;
 }
 
-#hero .icon-box .icon {
-  margin-bottom: 20px;
-  padding-top: 10px;
-  display: inline-block;
-  transition: all 0.3s ease-in-out;
-  font-size: 36px;
-  line-height: 1;
-  color: #2487ce;
-}
-
 #hero .icon-box:hover {
   transform: scale(1.08);
 }
 
 #hero .icon-box:hover .title a {
-  color: #2487ce;
+  color: #92b192;
 }
 
 @media (min-width: 1024px) {
@@ -337,7 +280,7 @@ section {
   text-transform: uppercase;
   margin-bottom: 20px;
   padding-bottom: 0;
-  color: #124265;
+  color: #92b192;
 }
 
 .section-title p {
@@ -397,7 +340,7 @@ section {
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #124265;
+  color: #92b192;
   position: relative;
   padding-bottom: 12px;
 }
@@ -414,7 +357,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #2487ce;
+  color: #92b192;
   font-size: 18px;
   line-height: 1;
 }
@@ -438,7 +381,7 @@ section {
 
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: #2487ce;
+  color: #92b192;
 }
 #footer .credits {
   padding-top: 5px;
@@ -449,7 +392,7 @@ section {
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #2487ce;
+  background: #92b192;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -462,7 +405,7 @@ section {
 }
 
 #footer .social-links a:hover {
-  background: #3194db;
+  background: #92b192;
   color: #fff;
   text-decoration: none;
 }
