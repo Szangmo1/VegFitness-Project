@@ -68,8 +68,9 @@ body {
 #header {
   transition: all 0.5s;
   background: #fff;
-  z-index: 997;
-  padding: 15px 0;
+  /* z-index: 997; */
+  /* padding: 3px 0; */
+  height: 7rem;
   border-bottom: 1px solid #e6f2fb;
 }
 
