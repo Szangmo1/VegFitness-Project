@@ -36,12 +36,12 @@ body {
     text-align: left;
 }
 
-.login-form button {
+.login {
     width: 20%;
     padding: 10px;
-    background-color: #92b192;
+    background-color: #92b192 !important;
     color: #fff;
-    border: none;
+    border: none !important;
     border-radius: 5px;
     cursor: pointer;
     text-align: center;

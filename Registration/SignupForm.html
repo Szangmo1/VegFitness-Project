@@ -15,7 +15,7 @@
       href="https://fonts.googleapis.com/css?family=Roboto"
       rel="stylesheet"
     />
-    <script>
+    <!-- <script>
       function validateSignUp() {
         var username = document.getElementById("username").value;
         var email = document.getElementById("email").value;
@@ -36,12 +36,12 @@
           alert("Sign-up successful!");
         }
       }
-    </script>
+    </script> -->
   </head>
   <body>
     <div class="container d-flex justify-content-center align-items-center">
       <div class="signup-box">
-        <img src="../assets/img/logo.png class="logo logo mx-auto d-block" />
+        <img src="../assets/img/logo.png" class="logo logo mx-auto d-block" />
         <form class="signup-form">
           <div
             class="signup-form-input p-100 rounded p-3 mb-3"
@@ -66,12 +66,13 @@
               placeholder="Confirm your password"
             />
           </div>
-          <button
+          <a href="../Registration/LoginForm.html" class="signup btn btn-primary mx-auto d-block">Sign Up</a>
+          <!-- <button
             class="btn btn-primary mx-auto d-block"
             onclick="validateSignUp()"
           >
             Sign Up
-          </button>
+          </button> -->
         </form>
         <p class="login-link">
           Already have an account? <a href="./LoginForm.html">Login</a>

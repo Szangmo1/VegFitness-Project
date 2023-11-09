@@ -43,7 +43,7 @@ body {
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #2487ce;
+  border: 6px solid #92b192;
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -68,9 +68,11 @@ body {
 #header {
   transition: all 0.5s;
   background: #fff;
-  z-index: 997;
-  padding: 15px 0;
-  border-bottom: 1px solid #e6f2fb;
+  /* z-index: 997; */
+  /* padding: 3px 0; */
+  height: 7rem;
+  padding: 10px 0;
+            
 }
 
 #header.header-scrolled {
@@ -79,17 +81,15 @@ body {
 }
 
 #header .logo {
-  font-size: 28px;
   margin: 0;
   padding: 0;
-  line-height: 1;
-  font-weight: 300;
-  letter-spacing: 0.5px;
-  font-family: "Poppins", sans-serif;
+  transform: scale(0.5);
+  max-width: 100px;
+
 }
-#header .logo img {
-  max-height: 40px;
-}
+/* #header .logo img {
+  max-height: 30px;
+} */
 
 @media (max-width: 992px) {
   #header .logo {
@@ -115,11 +115,27 @@ body {
   border-radius: 4px;
   color: #fff;
 }
-
+.logout{
+  background-color: #92b192 !important;
+  color: #fff;
+  border: none !important;    
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
 .navbar .logout:hover,
 .navbar .logout:focus:hover {
   color: #fff;
   background: #92b192;
+}
+@media (max-width: 768px) {
+  #header {
+      padding: 10px 0; /* Reduce padding for smaller screens */
+  }
+
+  .logo {
+      max-width: 80px; /* Adjust the logo size for smaller screens */
+  }
 }
 @media (max-width: 991px) {
   .mobile-nav-toggle {
@@ -161,7 +177,7 @@ body {
   font-size: 56px;
   font-weight: 700;
   line-height: 72px;
-  color: #135f1b;
+  color: #5e5e5e;
   font-family: "Roboto", sans-serif;
 }
 
@@ -183,6 +199,7 @@ body {
   margin-top: 30px;
   color: #fff;
   background: #92b192;
+  text-decoration: none;
 }
 
 #hero .btn-get-started:hover {
