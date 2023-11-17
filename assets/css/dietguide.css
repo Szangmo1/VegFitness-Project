@@ -8,7 +8,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 70vh;
-  background-color: #f0f0f0;
+  background-color: #F0FFF0;
 }
 /*--------------------------------------------------------------
 # Header
@@ -106,7 +106,10 @@ body {
     float: none;
   }
 }
-.container {
+.main {
+  height: 100vh;
+  margin-top: 50px;
+  height:fit-content;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -117,8 +120,16 @@ body {
   padding: 20px;
   box-sizing: border-box;
 }
+.text {
+  padding-left: 5px;
+}
 img {
-  width: 100%;
+  width: 80%;
   height: auto;
   display: block;
+  padding-right: 10px;
+  border-radius: 5%;
+}
+.diet-guide{
+  text-align: start;
 }
